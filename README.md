@@ -24,7 +24,7 @@ ret
 
 ```
 
-but why this syntax ? it too easy for Av/EDR reg.ex pattern matching engine to detect this, why not make more complex or foolish
+but why this syntax ? it too easy for AV/EDR reg.ex pattern matching engine to detect this, why not make more complex or foolish
 
 
 ```
