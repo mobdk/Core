@@ -29,6 +29,42 @@ but why this syntax ? it too easy for AV/EDR reg.ex pattern matching engine to d
 
 
 ```
-m
+nop
+mov rbx, rcx
+jmp labela
+
+labelb:
+sub rax, 0x3E8
+jmp labelc
+
+nop
+labelc:
+mov r10,rbx
+mov r15, 0x64
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+sub r15, 0x1
+syscall
+nop
+nop
+nop
+ret
+
+labela:
+mov rax, 0x456
+nop
+jmp labelb
 ```
 
