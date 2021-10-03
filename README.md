@@ -5,6 +5,8 @@ AV/EDR from debug/inspect this code.
 Core uses syscall to execute shellcode, any kind of shellcode, in this PoC Mimikatz is converted to shellcode (.exe version)
 Core is not calling any API but create memory mapped file and then calls the Nt or Zw functions.
 
+This version uses a static pattern that represent the syscall, the next version create dynamics pattern that change with every call !
+
 The inner soul of syscalls in 64bit:
 
 ```
@@ -98,4 +100,6 @@ cmd coffee
 
 then run core.exe
 
-don't type your Mimikatz in the mimikatz # prompt, hit ENTER once and type Mimikatz commands
+don't type your Mimikatz in the mimikatz # prompt, hit ENTER once and type Mimikatz commands.
+
+
