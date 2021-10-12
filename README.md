@@ -98,7 +98,7 @@ Start cmd.exe with argument coffee like this:
 
 cmd coffee
 
-then run core.exe
+then run rundll32 Core.dll,#1
 
 don't type your Mimikatz in the mimikatz # prompt, hit ENTER once and type Mimikatz commands.
 
